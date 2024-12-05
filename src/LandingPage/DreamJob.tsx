@@ -30,7 +30,7 @@ const DreamJob = () => {
         <div className="absolute  right-[13%] w-fit top-[50%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md">
           <div className="text-center mb-1 text-sm text-mine-shaft-100">10k+ got job</div>
           <Avatar.Group>
-            <Avatar src="https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg"/>
+            <Avatar src="https://media.licdn.com/dms/image/v2/D4D03AQFA3x-CZiHM8w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692880821147?e=2147483647&v=beta&t=dmSfb0iAtsuiBHw114M4L6-LhNRGoZpih-o3zQPEVew"/>
             <Avatar src="https://media.istockphoto.com/id/1411901680/photo/happy-man-toothy-smile-positive-emotion-avatar.jpg?s=612x612&w=0&k=20&c=H7YtE74Fs0CuGYftk0UtPYdZtO3VgBF5cX2HYmCI0C4="/>
             <Avatar src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjEwMzQtZWxlbWVudC0wNi0zOTcucG5n.png"/>
             <Avatar>+9</Avatar>
