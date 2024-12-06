@@ -1,42 +1,11 @@
-// //Data.tsx
-// // List of companies to be displayed in a marquee
-// export const companies: string[] = [
-//     "amazon",
-//     "deliveroo",
-//     "google",
-//     "hyland",
-//     "microsoft",
-//     "netflix",
-//     "persistent",
-//     "salesforce",
-//     "swiggy",
-//     "zepto",
-//   ];
-  
-// // Utility function to generate image paths
-// export const getCompanyImagePath = (company: string): string =>
-//     `/companies/${company}.png`;
-
-// export const category: string[] = [
-//   "Software Engineer",
-//   "Data Entry",
-//   "Hr",
-//   "Digital Marketing",
-//   "Graphics Designer"
-// ];
-
-
-
-// export const name: string[] = [
-//   "Software Engineer",
-//   "Data Entry",
-//   "Sales",
-//   "Digital Marketing",
-//   "Graphics Designer"
-// ];
-
 // Data.tsx
 
+export const dreamJb: string[] = [
+  "google-icon",
+  "laptop_boy",
+];
+export const getdreamJbImagePath = (company: string): string =>
+  `/images/${dreamJb}.png`;
 // List of companies to be displayed in a marquee
 export const companies: string[] = [
   "amazon",
@@ -83,7 +52,14 @@ export const category = [
     jobs: 50,
   },
 ];
-
+ const images: string[] = [
+  "google-icon.png",
+  "laptop_boy.png"
+];
+const getImagePath = (imageName: string): string => {
+  return `/images/${images}`; // Replace "/path-to-images/" with your actual path
+};
+export { images, getImagePath };
 // Utility function to generate image paths for categories
 export const getCategoryImagePath = (category: string): string =>
   `/category/${category}.png`;

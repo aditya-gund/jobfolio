@@ -1,6 +1,6 @@
 import { Avatar, TextInput } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
-
+import { getImagePath, images } from '../Data/Data';
 const DreamJob = () => {
   return (
     <div className="flex items-center px-16">
@@ -29,7 +29,7 @@ const DreamJob = () => {
       </div>
       <div className="w-[55%] flex items-center">
         <div className="w-[38rem]">
-          <img src='/images/laptop_boy.png' alt="Illustration of a boy using a laptop" />
+          <img src="./images/laptop_boy.png" alt="laptop_boy" />
           <div className="absolute right-[13%] w-fit top-[50%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md">
             <div className="text-center mb-1 text-sm text-mine-shaft-100">10k+ got job</div>
             <Avatar.Group>
@@ -42,7 +42,7 @@ const DreamJob = () => {
           <div className="absolute ml-6 w-fit right-[37%] top-[23%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md gap-3 flex flex-col">
             <div className="flex gap-2 items-center">
               <div className="w-10 h-10 p-1 bg-mine-shaft-900 rounded-lg">
-                <img src='/images/google-icon.png' alt="Google logo" />
+                <img src="/images/google-icon.png" alt="google" />
               </div>
               <div className="text-sm text-mine-shaft-100">
                 <div>Software Engineer</div>
