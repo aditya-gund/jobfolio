@@ -52,17 +52,6 @@ export const category = [
     jobs: 50,
   },
 ];
- const images: string[] = [
-  "google-icon.png",
-  "laptop_boy.png"
-];
-const getImagePath = (imageName: string): string => {
-  return `/images/${images}`; // Replace "/path-to-images/" with your actual path
-};
-export { images, getImagePath };
-// Utility function to generate image paths for categories
-export const getCategoryImagePath = (category: string): string =>
-  `/category/${category}.png`;
 
 // List of category names for other purposes (optional)
 export const name: string[] = category.map((c) => c.name);
